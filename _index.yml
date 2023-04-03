@@ -30,7 +30,5 @@ indexpage:
     links:
     - title: ネットアップコミュニティ
       url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: Cloud Tieringブログ
-      url: https://bluexp.netapp.com/blog/topic/cloud-tiering
     - title: クラウドに関する Web セミナー
       url: https://bluexp.netapp.com/events

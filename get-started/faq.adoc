@@ -20,7 +20,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 * BlueXPの運用耐障害性に関するURLは何ですか？*
 
-URLの場合は、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/[]
+URLの場合は、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^]
 
 
 

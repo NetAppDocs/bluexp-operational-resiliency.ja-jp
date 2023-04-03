@@ -12,7 +12,7 @@ summary: '[Remediate]オプションを選択した場合は、サービスに�
 
 
 [role="lead"]
-[* Remediate*（修正）]オプションを選択した場合は、サービスによって修正が実装されます。
+BlueXP運用の耐障害性サービスで*[Remediate]*オプションを選択した場合は、修正プログラムを実装できます。
 
 .手順
 . BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*>*[リスクの修正]*を選択します。
@@ -25,11 +25,11 @@ summary: '[Remediate]オプションを選択した場合は、サービスに�
 +
 ** コネクタが存在しない場合、またはまだ有効になっていない場合は、[コネクタの作成]ページが表示され、コネクタを作成できます。コネクタは存在するがアクティブでない場合は、クラウドプロバイダサービスで有効にする必要があります。
 +
-詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"]。
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
 
 ** クラスタが存在しない場合は、クラスタを識別するページが表示されます。
 +
-詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"]。
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"^]。
 
 
 
