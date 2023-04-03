@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-review.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: リスク修正サービスは、オンプレミスのONTAP クラスタ上のセキュリティリスクを特定します。 
+---
+= セキュリティリスクの問題をレビューします
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+リスク修正サービスは、オンプレミスのONTAP クラスタ上のセキュリティリスクを特定します。
+
+リスクを確認し、自動修正措置を実行するには、次のプロセスを実行します。
+
+* BlueXPでコネクタを作成します（リスク修正サービス用のコネクタがまだない場合）。
+* クラスタを検出します（サービスに対してクラスタが存在しない場合）。
+* 修正措置を実施するか、Ansible Playbookをダウンロード
+* 修正ステータスを表示します。
+
+
+.手順
+. BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*>*[リスクの修正]*を選択します。
+. リスクのリストで、[影響レベル]列でソートして、最も高いリスクから順に確認します。
+. リスクを選択して詳細を確認します。
+. [Remediate risk]*を選択します。
+. 次のいずれかを実行します。
++
+** 各クラスタについて、*[Remediate]*を選択します。
++
+この操作により、問題 が自動的に修正されます（修正を開始するために*[Execute]*を選択したあと）。に進みます link:../use/remediate-auto.html["リスクの問題を自動的に修正"]。
+
+** Ansibleプレイブックを使用して問題 を自分で修正するには、*[Download]*を選択します。に進みます link:../use/remediate-ansible.html["リスクの問題をAnsible Playbookで修正"]。
+
+
+

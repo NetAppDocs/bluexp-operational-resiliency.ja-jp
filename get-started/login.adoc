@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: get-started/login.html 
+keywords: bluexp login, risk remediation log in, operational resiliency 
+summary: BlueXPのサービスにアクセスして、運用耐障害性サービスの利用を開始します。 
+---
+= BlueXPで運用耐障害性サービスにアクセスします
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+NetApp BlueXPにログインすると、運用耐障害性サービスを使用できます。
+
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"]。
+
+.手順
+. Webブラウザを開き、にアクセスします https://console.bluexp.netapp.com/["BlueXPコンソール"]。
++
+NetApp BlueXPのログインページが表示されます。
+
+. BlueXPにログインします。
+. BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*を選択します。
+

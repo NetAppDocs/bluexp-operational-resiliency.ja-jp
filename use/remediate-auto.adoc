@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-auto.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: '[Remediate]オプションを選択した場合は、サービスによって修正が実装されます。' 
+---
+= 問題 を自動的に修正します
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+[* Remediate*（修正）]オプションを選択した場合は、サービスによって修正が実装されます。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*>*[リスクの修正]*を選択します。
+. [Risk Remediation]ページで、[Impact Level]列でソートして、最も高いリスクから順に確認します。
+. リスクを選択し、*[Remediate risk]*を選択します。
+. 各クラスタについて、*[Remediate]*を選択します。
++
+手順は、問題 に応じて表示されます。BlueXP Connectorが存在する場合やクラスタが既知の場合、このページの一部のオプションは表示されません。
+
++
+** コネクタが存在しない場合、またはまだ有効になっていない場合は、[コネクタの作成]ページが表示され、コネクタを作成できます。コネクタは存在するがアクティブでない場合は、クラウドプロバイダサービスで有効にする必要があります。
++
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"]。
+
+** クラスタが存在しない場合は、クラスタを識別するページが表示されます。
++
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"]。
+
+
+
+. コネクタを導入してクラスタが検出されたら、修正措置を確認します。
++
+[*Remediate*]オプションを選択して、サービスが修正を実装するようにした場合は、[Review and Execute Required Fix]ページが表示されます。
+
+. リスクやその他の情報を確認します。
+. [* Execute] を選択します。
++
+このアクションにより、コネクタがデプロイされ（まだ実行されていない場合）、クラスタが検出され、修正がダウンロードされ、選択したクラスタに修正が自動的に実装されます。
+
+. 修正プログラムのステータスを表示するには、[Remediation Status]ページでクラスタ名をメモします。
+

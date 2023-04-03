@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: get-started/faq.html 
+keywords: operational resiliency faq, risk remediation frequently asked questions 
+summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
+---
+= 運用耐障害性サービスに関するよくある質問
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。
+
+
+
+== 運用耐障害性サービスへのアクセス
+
+* BlueXPの運用耐障害性に関するURLは何ですか？*
+
+URLの場合は、ブラウザで次のように入力します。 https://console.bluexp.netapp.com/[]
+
+
+
+== ライセンス
+
+* Operational Resiliencyサービスを使用するにはライセンスが必要ですか？*
+
+ネットアップライセンスファイル（NLF）は必要ありません。

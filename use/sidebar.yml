@@ -1,0 +1,14 @@
+---
+section: use
+title: 運用の耐障害性サービスを使用します
+entries:
+- title: セキュリティの問題を確認して修正します
+  url: "/use/remediate-overview.html"
+- title: セキュリティの問題を確認します
+  url: "/use/remediate-review.html"
+- title: 問題を自動的に修正
+  url: "/use/remediate-auto.html"
+- title: Ansible Playbookを使用して問題を修正
+  url: "/use/remediate-ansible.html"
+- title: 修正ステータスを確認
+  url: "/use/remediate-status.html"

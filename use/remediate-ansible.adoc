@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-ansible.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: セキュリティリスクを確認し、問題 を修正するために従うことができるAnsibleプレイブックをダウンロードできます。 
+---
+= Ansible Playbookを使用して修正
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+セキュリティリスクを確認し、問題 を修正するために従うことができるAnsibleプレイブックをダウンロードできます。
+
+設定タスクを実行できるオープンソースの導入システムであるAnsible Playbookをダウンロードできます。Ansibleを使用するには、同じディレクトリに格納されているインベントリファイルとヘルパーファイルを使用するPlaybookファイルを実行するだけです。
+
+.必要なもの
+Ansibleプレイブックを実行するには、システムがネットワーク経由でクラスタIPにアクセスできる必要があります。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*>*[リスクの修正]*を選択します。
+. リスクのリストで、[影響レベル]列でソートして、最も高いリスクから順に確認します。
+. リスクを選択し、*[Remediate risk]*を選択します。
+. 問題 を自分で修正するために使用するAnsible Playbookをダウンロードするには、*[Download]*を選択します。
++
+選択した場所にローカルマシンにAnsible Playbookがインストールされます。Playbookはzipファイルとしてダウンロードされます。このファイルには複数のYMLファイルが含まれています。
+
+. ダウンロードフォルダでAnsible Playbookを探します。
+. Ansible Playbookを実行します。
++
+[listing]
+----
+$ ansible-playbook <playbook.yml>
+----
++
+Ansible Playbookの使用方法については、を参照してください https://docs.ansible.com/ansible/latest/network/getting_started/first_playbook.html["Ansibleのドキュメント"^]。
+
+. プレイブックの指示に従います。
+

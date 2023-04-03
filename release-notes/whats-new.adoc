@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: operational resiliency faq, operational resiliency frequently asked questions, firmware risks 
+summary: 運用耐障害性サービスの新機能をご確認ください。 
+---
+= 新機能
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+運用耐障害性サービスの新機能をご確認ください。
+
+
+
+== 2023年4月2日
+
+新しい運用耐障害性サービスと自動化されたIT運用リスク修復の提案を使用すると、システム停止や障害が発生する前に推奨される修復を実装できます。
+
+運用の耐障害性は、アラートとイベントを分析してサービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスのカテゴリです。
+
+link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["この新しいサービスの詳細については、こちらをご覧ください"]。

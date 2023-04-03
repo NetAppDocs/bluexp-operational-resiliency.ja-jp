@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: get-started/setup.html 
+keywords: bluexp, operational resiliency, risk remediate 
+summary: 容量を追加したりコールドデータを階層化したりするのではなく、現時点では対処不要で、30日、60日、90日後に再度確認するようにリマインダを設定できます。 
+---
+= 運用耐障害性サービスをセットアップします
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+運用耐障害性サービスを使用するための最初のステップは、環境内の監視ツールからデータを利用できるようにすることです。
+
+サービスを設定するには、次の手順を実行します。
+
+* レビュー link:../get-started/prerequisites.html["前提条件"] 環境の準備が整っていることを確認します
+* 必要に応じて、サービスを使用する前に、BlueXPでコネクタを作成します
+* 必要に応じて、このサービスを使用する前に、BlueXPでクラスタを検出します
+
+
+
+
+== BlueXPでコネクタを作成します
+
+BlueXP ConnectorにはNetApp ONTAP マシンへのクレデンシャルが含まれているため、耐障害性運用サービスがセキュリティリスクをアドバイスし、問題解決を実行できます。
+
+BlueXPで直接コネクタを作成し、そのコネクタを運用の耐障害性サービスで使用できます。または、クラスタを確認するプロセスを開始し、そのプロセスの途中でコネクタを導入します。
+
+サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
+
+
+
+== BlueXPでクラスタを検出します
+
+セットアップの一環として、BlueXPでクラスタ名、IP、ユーザ名、パスワードを特定します。
+
+手順については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"^]。

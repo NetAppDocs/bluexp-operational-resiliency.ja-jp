@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法的通知</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">著作権に関する声明、商標、特許などにアクセスできます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp のロゴ、および NetApp の商標ページに記載されているマークは、 NetApp, Inc. の商標です。その他の会社名および製品名は、それぞれの所有者の商標である場合があります。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">ネットアップが所有する特許の最新リストは、次のサイトで入手できます。</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
+  <block id="93f94a3d0340c1183f3b9bcffb4a1f14" category="summary">[Remediate]オプションを選択した場合は、サービスによって修正が実装されます。</block>
+  <block id="003848264a63687fa8d2ea1c33c5328e" category="doc">問題 を自動的に修正します</block>
+  <block id="8f975edf5f7c8d6af5534a68ce11cccc" category="paragraph">[* Remediate*（修正）]オプションを選択した場合は、サービスによって修正が実装されます。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="3f513535e1c0c6b9d8e9af3d3f2088ec" category="list-text">BlueXPの左側のナビゲーションで、*[健全性]*&gt;*[運用の耐障害性]*&gt;*[リスクの修正]*を選択します。</block>
+  <block id="1e19b0a3a63298e82247e47a78a5a04c" category="list-text">[Risk Remediation]ページで、[Impact Level]列でソートして、最も高いリスクから順に確認します。</block>
+  <block id="17c8eae6e44976b92d053c35007db63e" category="list-text">リスクを選択し、*[Remediate risk]*を選択します。</block>
+  <block id="280ad2a6c6ac0a29776201ab7eb71cde" category="list-text">各クラスタについて、*[Remediate]*を選択します。</block>
+  <block id="2ff7e6e819d1c3351da49fb9076ea7f6" category="paragraph">手順は、問題 に応じて表示されます。BlueXP Connectorが存在する場合やクラスタが既知の場合、このページの一部のオプションは表示されません。</block>
+  <block id="216a481d8cb3895627e1a95211130d00" category="list-text">コネクタが存在しない場合、またはまだ有効になっていない場合は、[コネクタの作成]ページが表示され、コネクタを作成できます。コネクタは存在するがアクティブでない場合は、クラウドプロバイダサービスで有効にする必要があります。</block>
+  <block id="d29bda09bea50f3d6b0e9d9d61015179" category="inline-link">コネクタの作成方法</block>
+  <block id="40291a6d68f9d56082e18b104e31da91" category="paragraph">詳細については、BlueXPのドキュメントを参照してください<block ref="9f721c04278fd77b52c3c474d81c42e1" category="inline-link-rx"></block>。</block>
+  <block id="82a3b3353123f51e6efb1de319a4a3af" category="list-text">クラスタが存在しない場合は、クラスタを識別するページが表示されます。</block>
+  <block id="fd7ba781ed31347905680b56f58f3835" category="inline-link">クラスタを特定する方法</block>
+  <block id="317827dd87942b7fbf964589a91148ef" category="paragraph">詳細については、BlueXPのドキュメントを参照してください<block ref="b8d275f10ab05e7146bf09438bedc804" category="inline-link-rx"></block>。</block>
+  <block id="dc2ee7c9bfe56a12af0b4b38d766e214" category="list-text">コネクタを導入してクラスタが検出されたら、修正措置を確認します。</block>
+  <block id="7c770aba12cb31624e5a42e1c0b421d9" category="paragraph">[*Remediate*]オプションを選択して、サービスが修正を実装するようにした場合は、[Review and Execute Required Fix]ページが表示されます。</block>
+  <block id="592899cba0155e8df6ff957e3c09bc55" category="list-text">リスクやその他の情報を確認します。</block>
+  <block id="c226d28399dfd8c127b616b86c9d4fea" category="list-text">[* Execute] を選択します。</block>
+  <block id="3d154ebb21caa4aba05ea76bee8d7155" category="paragraph">このアクションにより、コネクタがデプロイされ（まだ実行されていない場合）、クラスタが検出され、修正がダウンロードされ、選択したクラスタに修正が自動的に実装されます。</block>
+  <block id="93460c4c841eaa048fba6761437facac" category="list-text">修正プログラムのステータスを表示するには、[Remediation Status]ページでクラスタ名をメモします。</block>
+  <block id="8553b295905de8f0a1a9a8c380955c19" category="summary">修正のステータスはいつでも確認できます。実行中、完了、失敗のいずれであるかを確認できます。</block>
+  <block id="1f34564f7f268956b8ef3437c93fa501" category="doc">修正ステータスを確認します</block>
+  <block id="3b7f158e5588dd8c8fbd83e64644ead3" category="list-text">BlueXPの左側のナビゲーションで、*[健全性]*&gt;*[運用の耐障害性]*&gt;*[修正ステータス]*を選択します。</block>
+  <block id="c836b3c3af1e3ae322bae2582783e7fa" category="paragraph">[Remediation Status]ページが表示されます。</block>
+  <block id="340aea35d361c9684857dffdfb0d4e34" category="list-text">問題 の詳細を表示するには、問題 を選択して展開します。</block>
+  <block id="3f713c8f4e664d48eacc8df4f2395ab2" category="summary">リスク修正サービスは、オンプレミスのONTAP クラスタ上のセキュリティリスクを特定します。</block>
+  <block id="71dfe4aa697335a7f919f97a8273c0b2" category="doc">セキュリティリスクの問題をレビューします</block>
+  <block id="8ced7aef65cbf7f975ce05495aaa7b5a" category="paragraph">リスクを確認し、自動修正措置を実行するには、次のプロセスを実行します。</block>
+  <block id="e58b02e46b4a2ae158eeea3e4be06da2" category="list-text">BlueXPでコネクタを作成します（リスク修正サービス用のコネクタがまだない場合）。</block>
+  <block id="79ce14dc5f77cf8e0b4406ad7fa1b113" category="list-text">クラスタを検出します（サービスに対してクラスタが存在しない場合）。</block>
+  <block id="fc679714d6de762a8709e88fd77d9dd3" category="list-text">修正措置を実施するか、Ansible Playbookをダウンロード</block>
+  <block id="3d4a0bdc7753224ebf0b57c73a661a15" category="list-text">修正ステータスを表示します。</block>
+  <block id="f8d3a74379407197e7d61dec4f8cd3b3" category="list-text">リスクのリストで、[影響レベル]列でソートして、最も高いリスクから順に確認します。</block>
+  <block id="913ecc0beddc129e9609213e025ebec1" category="list-text">リスクを選択して詳細を確認します。</block>
+  <block id="def9ecedff7079d6d62e1e8ec68c8fb4" category="list-text">[Remediate risk]*を選択します。</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">次のいずれかを実行します。</block>
+  <block id="373bf4d3d886486e00480450ab8f99da" category="inline-link-macro">リスクの問題を自動的に修正</block>
+  <block id="bfd3572da7deb352274b4218934dd2a5" category="paragraph">この操作により、問題 が自動的に修正されます（修正を開始するために*[Execute]*を選択したあと）。に進みます <block ref="155d1c925e456f5b01e8084a17198a9b" category="inline-link-macro-rx"></block>。</block>
+  <block id="dba780c086871839e271397a91a1168f" category="inline-link-macro">リスクの問題をAnsible Playbookで修正</block>
+  <block id="1a72f3179a2856e66237e05940c8b2c4" category="list-text">Ansibleプレイブックを使用して問題 を自分で修正するには、*[Download]*を選択します。に進みます <block ref="2a3a4262efa2f3516dd5c7a1e58f2a52" category="inline-link-macro-rx"></block>。</block>
+  <block id="3d23dd2c04c9f13e9b274fad4db973ca" category="summary">NetApp BlueXPの運用耐障害性サービスは、AIを使用してセキュリティリスクを特定します。</block>
+  <block id="d829aa8182023eade7fc5b09a6e6db10" category="doc">セキュリティリスクの問題をレビューして修正</block>
+  <block id="fcd5b3eaba8e2d3ad1a6bd2e634c0fa8" category="paragraph">運用の耐障害性サービスを使用すると、ファームウェアの問題に関連するセキュリティリスクを確認し、修正措置を実施できます。</block>
+  <block id="1500b69b05c684f2bff6fef6c269da7e" category="paragraph">推奨事項はシステムレベルまたはノードレベルで提供されます。</block>
+  <block id="ef332fe59155dbbe05afbc8237b6c2f0" category="paragraph">リスクを確認したら、次の2つの方法でリスクを修正できます。</block>
+  <block id="c59d31dbfc067528382d67deadc6809e" category="list-text">サービスに修正を実施してもらい、問題 を修正してもらいます。</block>
+  <block id="65b6ec319cba2b39d4b8f1261e5f65d2" category="list-text">設定タスクを実行できるオープンソースの導入システムであるAnsible Playbookをダウンロードし、そのPlaybookで推奨される操作を実行します。</block>
+  <block id="4c9ea87870070d09e4bdab8c3f322d31" category="paragraph">運用の耐障害性サービスを使用すると、次の目標を達成できます。</block>
+  <block id="d3fac19c124804d1e84db71213df90a4" category="list-text"><block ref="d3fac19c124804d1e84db71213df90a4" category="inline-link-macro-rx"></block></block>
+  <block id="509a2fbcd8e8c4f65019e011c9fc5135" category="inline-link-macro">自動的に修正</block>
+  <block id="64910b3c333d96f1f4e6bd6ba9321283" category="list-text"><block ref="64910b3c333d96f1f4e6bd6ba9321283" category="inline-link-macro-rx"></block></block>
+  <block id="c78342d84163fecab0430a24ae5c3f66" category="inline-link-macro">Ansible Playbookを使用して修正</block>
+  <block id="d5d41b0abde9c0464ce21dfde2d0f924" category="list-text"><block ref="d5d41b0abde9c0464ce21dfde2d0f924" category="inline-link-macro-rx"></block></block>
+  <block id="3b5fe5976d02afb3d65a1ee5e8bc5181" category="inline-link-macro">リスクの修正ステータスを確認</block>
+  <block id="206f76bf015b0ee7560944906237a712" category="list-text"><block ref="206f76bf015b0ee7560944906237a712" category="inline-link-macro-rx"></block></block>
+  <block id="0f397eb61b6ce23b9cff366eb1c10b70" category="summary">セキュリティリスクを確認し、問題 を修正するために従うことができるAnsibleプレイブックをダウンロードできます。</block>
+  <block id="9c8a525d96cfdf66cd2fd3c3c4a0e551" category="paragraph">設定タスクを実行できるオープンソースの導入システムであるAnsible Playbookをダウンロードできます。Ansibleを使用するには、同じディレクトリに格納されているインベントリファイルとヘルパーファイルを使用するPlaybookファイルを実行するだけです。</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">必要なもの</block>
+  <block id="a88347b2867db6da580a55a163a875e6" category="paragraph">Ansibleプレイブックを実行するには、システムがネットワーク経由でクラスタIPにアクセスできる必要があります。</block>
+  <block id="5506f82eb665f11d97b1671ac345f166" category="list-text">問題 を自分で修正するために使用するAnsible Playbookをダウンロードするには、*[Download]*を選択します。</block>
+  <block id="86e5f57e6fdba2be96d6faaaf00a41a8" category="paragraph">選択した場所にローカルマシンにAnsible Playbookがインストールされます。Playbookはzipファイルとしてダウンロードされます。このファイルには複数のYMLファイルが含まれています。</block>
+  <block id="c408055d4edd96a49ac810fd4764affc" category="list-text">ダウンロードフォルダでAnsible Playbookを探します。</block>
+  <block id="29d584c9d232f2751e0d7736264cde6f" category="list-text">Ansible Playbookを実行します。</block>
+  <block id="c3ee5ddf91e65773d3e9d27f9e627350" category="inline-link">Ansibleのドキュメント</block>
+  <block id="7d6268b9dc6ee19857991d4f88f50bdf" category="paragraph">Ansible Playbookの使用方法については、を参照してください<block ref="2f1345580118e2956f2276fe8e08e989" category="inline-link-rx"></block>。</block>
+  <block id="30a894e91a8af680e08e44c220c86292" category="list-text">プレイブックの指示に従います。</block>
+  <block id="ee4f79267b9b721be99108c15cc25314" category="summary">運用の耐障害性は、アラートとイベントを分析してサービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスのカテゴリです。運用耐障害性のリスク修復サービスと、IT運用の自動修復の提案を使用して、システム停止や障害が発生する前に推奨される修正策を実装できます。</block>
+  <block id="fd6bebcfb34c38b868e5a7e0dd8fde4e" category="doc">運用の耐障害性サービス</block>
+  <block id="d31c2f400069ae7ed5d8d417be7e408f" category="summary">環境がサポートされているかどうか、ネットワークアクセス、ログイン、Webブラウザを確認して、BlueXP運用の耐障害性を活用しましょう。</block>
+  <block id="c08c16ebaae52a216a6bdc1f3d6a4f8c" category="doc">運用の耐障害性に関する前提条件</block>
+  <block id="84804abf3404a430e85ae3299587a6b0" category="paragraph">まず、運用環境、ログイン、ネットワークアクセス、Webブラウザの準備状況を確認します。</block>
+  <block id="9bd9926830b47ac6a79518657cd0c311" category="paragraph">運用の耐障害性サービスを使用するには、環境がすべての要件を満たしていることを確認する必要があります。</block>
+  <block id="3bb4638459c9fa17eee7502169bd253e" category="list-text">Webブラウザからのログインやネットワークアクセスなど、BlueXPのすべての要件を満たす環境が必要です。</block>
+  <block id="5b13c2584f8e7be6ddae81fa76b103bc" category="inline-link">はじめにチェックリスト</block>
+  <block id="ec9789225ae7aac04cc60b035ede5646" category="paragraph">BlueXPを参照してください<block ref="390066789dae200d18de69ad3c85d8e1" category="inline-link-rx"></block>。</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
+  <block id="61af071e06d987945eac83349fe4bac9" category="list-text">このサービスを実行するには、すべてのクラスタがデジタルアドバイザ（旧Active IQ デジタルアドバイザ）で監視されている必要があります。を参照してください<block ref="f2e318b984927d4781fb278ddc8ba233" category="inline-link-rx"></block>。</block>
+  <block id="a3538d61b66c68f21178c789ab57dc45" category="list-text">クラスタへのアクセスクレデンシャルが必要です。</block>
+  <block id="a957b5f46307a4beeefa3727aab84ac1" category="list-text">必須ではありませんが、BlueXP Connectorが適切に配置されて有効になっていて、ONTAP システムが検出された場合に役立ちます。サポートされていない場合は、運用耐障害性サービスがそれらのプロセスを順を追って説明します。</block>
+  <block id="8996677d91a175f8986c9fb086d0a019" category="summary">容量を追加したりコールドデータを階層化したりするのではなく、現時点では対処不要で、30日、60日、90日後に再度確認するようにリマインダを設定できます。</block>
+  <block id="53b2a3888d74c6060ad749e8cd50f3cc" category="doc">運用耐障害性サービスをセットアップします</block>
+  <block id="eb1f1072afdeaf925ee8a49c27da36a6" category="paragraph">運用耐障害性サービスを使用するための最初のステップは、環境内の監視ツールからデータを利用できるようにすることです。</block>
+  <block id="aeef00e38ed51f22706d62c2a0ab5668" category="paragraph">サービスを設定するには、次の手順を実行します。</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">前提条件</block>
+  <block id="230a6470f3b56faa66817a00760e17ee" category="list-text">レビュー <block ref="7009d9e779d272896f977d5e53a42299" category="inline-link-macro-rx"></block> 環境の準備が整っていることを確認します</block>
+  <block id="c5830b9c873a2695b82be495158e2d0f" category="list-text">必要に応じて、サービスを使用する前に、BlueXPでコネクタを作成します</block>
+  <block id="8b6359316fcd0e79bcc63e44fde4f177" category="list-text">必要に応じて、このサービスを使用する前に、BlueXPでクラスタを検出します</block>
+  <block id="ccaaa0b1fdb9afd84865d38039f74d41" category="section-title">BlueXPでコネクタを作成します</block>
+  <block id="12c974d821c2a657f06d04bb173ce05d" category="paragraph">BlueXP ConnectorにはNetApp ONTAP マシンへのクレデンシャルが含まれているため、耐障害性運用サービスがセキュリティリスクをアドバイスし、問題解決を実行できます。</block>
+  <block id="7035adff8b1382b7935ca5ea77976a02" category="paragraph">BlueXPで直接コネクタを作成し、そのコネクタを運用の耐障害性サービスで使用できます。または、クラスタを確認するプロセスを開始し、そのプロセスの途中でコネクタを導入します。</block>
+  <block id="a5aa4a9277b83c0c529e9cebd0e88464" category="paragraph">サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください<block ref="3be6fdd970ee3d2f07a043a29363ec05" category="inline-link-rx"></block>。</block>
+  <block id="8cb57f3692a9a95873b528375ca802ad" category="section-title">BlueXPでクラスタを検出します</block>
+  <block id="6ac16908cedf4f30facecaf3b473c7de" category="paragraph">セットアップの一環として、BlueXPでクラスタ名、IP、ユーザ名、パスワードを特定します。</block>
+  <block id="77edd12846ceca08a63e1059865b1044" category="paragraph">手順については、BlueXPのドキュメントを参照してください<block ref="20b708c671b065a2812094c911bf9a2e" category="inline-link-rx"></block>。</block>
+  <block id="08a1c8c8efa0dcbbd69a866487cb6095" category="summary">BlueXPのサービスにアクセスして、運用耐障害性サービスの利用を開始します。</block>
+  <block id="4bffe1140d12eeb81b9e080b0ff35d8d" category="doc">BlueXPで運用耐障害性サービスにアクセスします</block>
+  <block id="43df50f2400dc0718ce6b2d1c64e3a13" category="paragraph">NetApp BlueXPにログインすると、運用耐障害性サービスを使用できます。</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">ログインの詳細については、こちらをご覧ください</block>
+  <block id="3278cb74d1a55e8490b54ad36d8d8932" category="paragraph">BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。<block ref="0ebbf5f315e843babc1bfedbc37bc7a5" category="inline-link-rx"></block>。</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link">BlueXPコンソール</block>
+  <block id="36c53a7c1d567e72b555e7c672926fcc" category="list-text">Webブラウザを開き、にアクセスします<block ref="c7cac890d256b6982a3b913952a758f2" category="inline-link-rx"></block>。</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">NetApp BlueXPのログインページが表示されます。</block>
+  <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">BlueXPにログインします。</block>
+  <block id="30a806d095989a4cd374d05f16b397d2" category="list-text">BlueXPの左側のナビゲーションで、*[健全性]*&gt;*[運用の耐障害性]*を選択します。</block>
+  <block id="6b8ca4480e86b37ac8094418798793ad" category="summary">NetApp BlueXPの運用耐障害性サービスは、わずかな手順で利用できます。</block>
+  <block id="050bdb33d21b55499cded08599e171f0" category="doc">運用耐障害性サービスのクイックスタート</block>
+  <block id="ac0de9ac56255db14daf80267b0e4e5c" category="paragraph">ここでは、NetApp BlueXPの運用耐障害性サービスを開始するために必要な手順の概要を示します。各ステップ内のリンクから、詳細が記載されたページに移動できます。</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1つ</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 前提条件を確認する</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">環境がこれらの要件を満たしていることを確認します</block>
+  <block id="ced4b743323450a7e7e56480339ef345" category="paragraph"><block ref="3ad9f09af84a8cf38e8d4dc8f0c46658" category="inline-link-macro-rx"></block>。</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2 つ</block>
+  <block id="fb8982c5d00e543224efa2ac70a820aa" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 運用耐障害性サービスをセットアップします</block>
+  <block id="cc6726e02ea7bc25f1ed413652107bdb" category="inline-link-macro">サービスをセットアップする手順を実行します</block>
+  <block id="8945930be6c7ec09e7411ef60b953505" category="paragraph"><block ref="ee9c1a6028084ebc22aa7d8247808a40" category="inline-link-macro-rx"></block>。</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">3つ</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 次の手順</block>
+  <block id="19ceaf81f50456bdfe6fb1329956f3bc" category="paragraph">サービスのセットアップが完了したら、次の手順を実行します。</block>
+  <block id="aa8d0cec3b55028965e2b85d19c7be28" category="list-text"><block ref="1e5b83b9aa813937f4a97f0d9de4eabb" category="inline-link-macro-rx"></block>。</block>
+  <block id="5b827b62bd5c6670127f02a22cdeae4b" category="list-text"><block ref="f6aff0b119f503029db83af3a48d170e" category="inline-link-macro-rx"></block>。</block>
+  <block id="2917b1025bbb9c3686b91e471db99651" category="inline-link-macro">Ansible Playbookを使用して問題を解決</block>
+  <block id="daa30aaf6281023aee56e56db8ce96fb" category="list-text"><block ref="a7e3b23a1f3f74fcdbdc771d0ce3464a" category="inline-link-macro-rx"></block>。</block>
+  <block id="88423fe6213085494239f6ce5cbf5e7d" category="list-text"><block ref="b26664155e4669de3894cf4ef5b3d8a0" category="inline-link-macro-rx"></block>。</block>
+  <block id="4bc36b94d13916f64255f9c6f54ad51e" category="doc">運用耐障害性サービスについて説明します</block>
+  <block id="cdf4fac12fa59bdc6554cf531c298474" category="paragraph">リスク修復は、BlueXP向けのサービスで、ネットアップデジタルアドバイザ（旧Active IQ ）のガイダンスに基づいて、NetApp ONTAP クラスタへの修復を実装します。このサービスは、ファームウェアやソフトウェアの設定の問題など、セキュリティの脆弱性を検出します。</block>
+  <block id="605e84eff6f220f2e648f18326caeb08" category="section-title">Operational Resiliencyサービスを使用するメリット</block>
+  <block id="60232dbbfa24ad62739a39cde4e86d5b" category="paragraph">運用耐障害性サービスには、次のようなメリットがあります。</block>
+  <block id="62540663380c02ec00b1e7931e30617d" category="list-text">クラスタでの修正手順の自動化</block>
+  <block id="51bbd775f32eafc27c0054ece81c6916" category="list-text">ダッシュボードの[Summary]ビューには、各リスクの修正の状態が表示されます</block>
+  <block id="3a9852c45e2e43edbcefa9f74bf72fbb" category="list-text">実行されたさまざまなアクションを追跡できるログ</block>
+  <block id="24ec8b62b98d08eefe3e1005befd6c32" category="section-title">運用耐障害性サービスでできること</block>
+  <block id="fbc467aaaef72571b69362ffd793b980" category="paragraph">運用の耐障害性サービスを使用すると、次の目標を達成できます。</block>
+  <block id="e602de70104e7a6058d5ee89495ff842" category="list-text">自動化されたワークフローにより、ストレージ環境に影響を及ぼすリスクを検出し、リスクを軽減するための措置を講じることができます。</block>
+  <block id="f7551fc8ea0fd358f71f9e67b147781f" category="list-text">セキュリティの脆弱性に関連する問題など、運用上の推奨事項を確認して対処します。</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
+  <block id="18720152dc5c7d0c9fdd39d12dc9d74b" category="paragraph">ネットアップは、このサービスの利用に対して料金を請求することはありません。</block>
+  <block id="eb1f65bb1b774d1bd2f00607a58f102c" category="section-title">サポートされている環境</block>
+  <block id="429885a62ce0c77395b945842226a4cc" category="paragraph">運用の耐障害性サービスは、オンプレミスのNetApp ONTAP クラスタを分析します。</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。</block>
+  <block id="0e47e65f6f1da96b296d1bb3be658363" category="doc">運用耐障害性サービスに関するよくある質問</block>
+  <block id="424543a58732f42fd5482c0f9a373994" category="section-title">運用耐障害性サービスへのアクセス</block>
+  <block id="3d30fb9c1a3cbc7318effaf7886fd510" category="paragraph">* BlueXPの運用耐障害性に関するURLは何ですか？*</block>
+  <block id="b962278bb795a7ad8f07e7eca506985f" category="paragraph">URLの場合は、ブラウザで次のように入力します。<block ref="f3ce75e13c42a18a2722e4f79bc3b004" category="inline-link-rx"></block></block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">ライセンス</block>
+  <block id="7cb38122a2ccc3592b97f5655d3c4080" category="paragraph">* Operational Resiliencyサービスを使用するにはライセンスが必要ですか？*</block>
+  <block id="5f2ba40ecab933bbf8f2c6806901fc08" category="paragraph">ネットアップライセンスファイル（NLF）は必要ありません。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">ネットアップでは、BlueXPとその クラウド サービス をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用します</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">次のオプションは、 1 日 24 時間、週 7 日間無料でご利用いただけます。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">BlueXPナレッジベースで問題のトラブルシューティングに役立つ記事を検索します。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXPコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com [ フィードバックメール ]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">お客様のご意見をお考えください。フィードバックを送信して、BlueXPの改善に役立ててください。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">サポートに登録する方法について説明します</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">[ケースの作成]機能を使用するには、まず、BlueXPアカウントIDのシリアル番号(例960xxxx）にネットアップが付属 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support Site アカウント*：サポートケースをオープンしたユーザーに関連付けられている該当のNSSアカウントを選択します。この担当者は、以下に記載する追加のEメールに加えて、ネットアップから連絡を受け取る主要担当者となります。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">NSSアカウントが表示されない場合は、BlueXPのサポートセクションにある*NSS Management*タブに移動して追加できます。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*その他のメールアドレス*：この問題 を他のユーザーに知らせる場合は、追加のメールアドレスを入力します。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル（オプション）*：一度に1つずつ、最大5つの添付ファイルをアップロードできます。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。[ケースの作成]フォームの上部にあるNSSアカウントの一覧を確認して、適切な一致を見つけることができます。または、次のいずれかのオプションを使用してサポートを依頼することもできます。</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">テクニカル以外のケースをに送信します<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">サポートケースの管理（プレビュー）</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">アクティブなサポートケースと解決済みのサポートケースは、BlueXPから直接表示および管理できます。NSSアカウントと会社に関連付けられたケースを管理できます。</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">ケース管理はプレビューとして使用できます。今後のリリースでは、この点をさらに改良し、機能を強化する予定です。製品内のチャットでご意見をお寄せください。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の2つのビューがあります。</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザNSSアカウントによって過去3カ月間にオープンされたケースの総数が表示されます。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザのNSSアカウントに基づいて、過去3カ月間にオープンしたケースの総数が会社レベルで表示されます。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">テーブルの結果には、選択したビューに関連するケースが反映されます。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">[ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">[Status]列のフィルタオプションのスクリーンショット。[Active]や[Closed]など、特定のステータスに一致するケースを除外できます。</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">テーブルに表示されるプラスアイコン</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">表に表示できる列を示すスクリーンショット。</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">をクリックして既存のケースを管理します <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録します</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">ネットアップテクニカルサポートでサポートケースをオープンするには、まずNetApp Support Site （NSS）アカウントをBlueXPに追加し、サポートに登録する必要があります。</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">クラウドプロバイダソリューションのサポート</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXPに統合した次のクラウドプロバイダソリューションのテクニカルサポートについては、その製品のBlueXPマニュアルの「困ったときは」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 対応の Amazon FSX</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files の特長</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">登録方法は、新規のお客様か既存のお客様かパートナーかによって異なります。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">既存のお客様またはパートナー</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">ネットアップの既存のお客様またはパートナー様は、NetApp Support Site （NSS）SSOアカウントを使用して上記の登録を実行することができます。サポートダッシュボードでは、BlueXPには、NSSアカウントを追加できる*NSS Management*ページがあります。NSSアカウントを追加すると、これらのシリアル番号が自動的に登録されます。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSSアカウントを追加する方法について説明します</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">初めて導入する場合は</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">ネットアップを初めてご利用になる場合は、ネットアップのサポート登録サイトで、BlueXPアカウントのシリアル番号の登録を1回だけ完了する必要があります。この登録を完了し、新しいNSSアカウントを作成したら、BlueXPでこのアカウントを使用して自動登録を行うことができます。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">ネットアップへの登録方法をご確認ください</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">NSSアカウントをBlueXPに追加します</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">サポートダッシュボードを使用すると、NetApp Support Site アカウントを追加して管理し、BlueXPで使用できます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、NetApp Support Siteの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインに成功すると、ネットアップはNSSのユーザ名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平ドットのアイコン</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">これはシステムによって生成されたIDで、電子メールにマッピングされます。[*NSS Management*]ページで、から電子メールを表示できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">ネットアップに登録してください</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存のお客様</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">NSSアカウントをまだ追加していない場合は、BlueXPに追加します。</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">[*リソース]ページで、[*サポートに登録*]をクリックします。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">アカウントのシリアル番号と[サポートに登録]オプションを示すスクリーンショット</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">NSSアカウントを持たない既存のお客様</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">既存のライセンスとシリアル番号をお持ちで、_no-NSSアカウントをお持ちのネットアップのお客様は、NSSアカウントを作成するだけで十分です。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">を実行してNetApp Support Site アカウントを作成します<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">ネットアップのソリューションを初めて導入する場合は</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページでアカウントIDのシリアル番号を確認します。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">ネットアップサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">に移動します<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 「*ネットアップ登録のお客様ではありません*」を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールドに入力します（赤いアスタリスクのフィールド）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support Site アカウントを作成したら、BlueXPに移動して、このNSSアカウントを追加して今後の登録を行うことができます。</block>
+  <block id="84fa68bdcea2ad5e54b20ac851705b19" category="summary">ここでは、このリリースのサービスでサポートされていない、またはサービスと正常に相互運用できないプラットフォーム、デバイス、または機能について説明します。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="doc">制限</block>
+  <block id="d13b251ada2cfb6aeec1f3c123d852e8" category="summary">運用耐障害性サービスの新機能をご確認ください。</block>
+  <block id="490414e0366b091220802d406e52c076" category="doc">新機能</block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023年4月2日</block>
+  <block id="1630a937eacb69072b241ed94c9fd786" category="paragraph">新しい運用耐障害性サービスと自動化されたIT運用リスク修復の提案を使用すると、システム停止や障害が発生する前に推奨される修復を実装できます。</block>
+  <block id="ccdc113a6d04ad73b22b032c1ebd7c63" category="paragraph">運用の耐障害性は、アラートとイベントを分析してサービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスのカテゴリです。</block>
+  <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link-macro">この新しいサービスの詳細については、こちらをご覧ください</block>
+  <block id="111e68f453d93697e376aa4b128f9a4c" category="paragraph"><block ref="ab8039366481dc33ac47cc2a37c277c6" category="inline-link-macro-rx"></block>。</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイックスタート</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">前提条件</block>
+  <block id="1da54223aacfae99a4874c0e691e9686" category="sidebar">BlueXPでサービスにログインします</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">よく寄せられる質問</block>
+  <block id="bd061bc82da085cfa0af1ce1250210fe" category="sidebar">運用の耐障害性サービスを使用します</block>
+  <block id="c51a2c08d5209aad63f43c6526df187d" category="sidebar">セキュリティの問題を確認して修正します</block>
+  <block id="55ecbcc86c1df8e0bbccc58434b65675" category="sidebar">問題を自動的に修正</block>
+  <block id="c9705b7c773d6a1ccecd7fb434fd094c" category="sidebar">Ansible Playbookを使用して問題を修正</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
+  <block id="e7719a97642051ee358e5d15cf1ab284" category="sidebar">Cloud Tieringブログ</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
+  <block id="56a1a3f59cf0d0d350684ce2a2bc24d2" category="sidebar">耐障害性に関する運用に関するドキュメント</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
+  <block id="dd76577d0fda67d24563883480d82c24" category="sidebar">セキュリティの問題を確認します</block>
+  <block id="fc42475b6d973f576b48ed3139510d1a" category="sidebar">修正ステータスを確認</block>
+  <block id="c6c64cb38e97edda8ffa90f94528ff44" category="sidebar">BlueXPのサービスにアクセスします</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
+</blocks>

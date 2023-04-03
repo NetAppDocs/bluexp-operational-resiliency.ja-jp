@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-overview.html 
+keywords: operational resiliency, remediate, risk remediation, security risk 
+summary: NetApp BlueXPの運用耐障害性サービスは、AIを使用してセキュリティリスクを特定します。 
+---
+= セキュリティリスクの問題をレビューして修正
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+運用の耐障害性サービスを使用すると、ファームウェアの問題に関連するセキュリティリスクを確認し、修正措置を実施できます。
+
+推奨事項はシステムレベルまたはノードレベルで提供されます。
+
+リスクを確認したら、次の2つの方法でリスクを修正できます。
+
+* サービスに修正を実施してもらい、問題 を修正してもらいます。
+* 設定タスクを実行できるオープンソースの導入システムであるAnsible Playbookをダウンロードし、そのPlaybookで推奨される操作を実行します。
+
+
+運用の耐障害性サービスを使用すると、次の目標を達成できます。
+
+* link:../use/remediate-review.html["セキュリティリスクの問題をレビューします"]
+* link:../use/remediate-auto.html["自動的に修正"]
+* link:../use/remediate-ansible.html["Ansible Playbookを使用して修正"]
+* link:../use/remediate-status.html["リスクの修正ステータスを確認"]
+

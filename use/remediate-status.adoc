@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: use/remediate-status.html 
+keywords: bluexp, operational resiliency, remediate, security risk remediation 
+summary: 修正のステータスはいつでも確認できます。実行中、完了、失敗のいずれであるかを確認できます。 
+---
+= 修正ステータスを確認します
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+修正のステータスはいつでも確認できます。実行中、完了、失敗のいずれであるかを確認できます。
+
+.手順
+. BlueXPの左側のナビゲーションで、*[健全性]*>*[運用の耐障害性]*>*[修正ステータス]*を選択します。
++
+[Remediation Status]ページが表示されます。
+
+. 問題 の詳細を表示するには、問題 を選択して展開します。
+
