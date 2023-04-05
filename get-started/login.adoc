@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: get-started/login.html 
 keywords: bluexp login, risk remediation log in, operational resiliency 
-summary: BlueXPのサービスにアクセスして、運用耐障害性サービスの利用を開始します。 
+summary: BlueXPでサービスにアクセスして、耐障害性運用サービスの利用を開始しましょう。 
 ---
-= BlueXPで運用耐障害性サービスにアクセスします
+= BlueXPで運用の耐障害性サービスにアクセスします
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

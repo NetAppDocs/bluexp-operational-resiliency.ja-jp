@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/prerequisites.html 
 keywords: what are bluexp operational resiliency requirements, economic efficiency prerequisites 
-summary: 環境がサポートされているかどうか、ネットワークアクセス、ログイン、Webブラウザを確認して、BlueXP運用の耐障害性を活用しましょう。 
+summary: 環境のサポート、ネットワークアクセス、ログイン、Webブラウザを確認して、BlueXPの運用耐障害性サービスの利用を開始しましょう。 
 ---
 = 運用の耐障害性に関する前提条件
 :hardbreaks:
@@ -22,5 +22,5 @@ BlueXPを参照してください https://docs.netapp.com/us-en/cloud-manager-se
 
 * このサービスを実行するには、すべてのクラスタがデジタルアドバイザ（旧Active IQ デジタルアドバイザ）で監視されている必要があります。を参照してください https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisorのドキュメント"^]。
 * クラスタへのアクセスクレデンシャルが必要です。
-* 必須ではありませんが、BlueXP Connectorが適切に配置されて有効になっていて、ONTAP システムが検出された場合に役立ちます。サポートされていない場合は、運用耐障害性サービスがそれらのプロセスを順を追って説明します。
+* 必須ではありませんが、BlueXP Connectorが適切に配置されて有効になっていて、ONTAP システムが検出された場合に役立ちます。そうでない場合は、運用の耐障害性サービスがそれらのプロセスを順を追って説明します。
 

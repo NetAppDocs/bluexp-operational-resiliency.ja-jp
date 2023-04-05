@@ -4,7 +4,7 @@ permalink: get-started/faq.html
 keywords: operational resiliency faq, risk remediation frequently asked questions 
 summary: この FAQ は、質問に対する簡単な回答を探している場合に役立ちます。 
 ---
-= 運用耐障害性サービスに関するよくある質問
+= 運用の耐障害性サービスに関するよくある質問
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -16,7 +16,7 @@ summary: この FAQ は、質問に対する簡単な回答を探している場
 
 
 
-== 運用耐障害性サービスへのアクセス
+== 運用の耐障害性サービスへのアクセス
 
 * BlueXPの運用耐障害性に関するURLは何ですか？*
 
@@ -26,6 +26,6 @@ URLの場合は、ブラウザで次のように入力します。 https://conso
 
 == ライセンス
 
-* Operational Resiliencyサービスを使用するにはライセンスが必要ですか？*
+*運用耐障害性サービスを使用するにはライセンスが必要ですか？*
 
 ネットアップライセンスファイル（NLF）は必要ありません。
