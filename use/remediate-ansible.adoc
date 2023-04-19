@@ -4,7 +4,7 @@ permalink: use/remediate-ansible.html
 keywords: bluexp, operational resiliency, remediate, security risk remediation 
 summary: セキュリティリスクを確認し、問題 を修正するために従うことができるAnsibleプレイブックをダウンロードできます。 
 ---
-= Ansible Playbookを使用して修正
+= Ansible Playbookを使用してリスクを修正
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

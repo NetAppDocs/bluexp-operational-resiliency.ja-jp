@@ -4,7 +4,7 @@ permalink: get-started/prerequisites.html
 keywords: what are bluexp operational resiliency requirements, economic efficiency prerequisites 
 summary: 環境のサポート、ネットワークアクセス、ログイン、Webブラウザを確認して、BlueXPの運用耐障害性サービスの利用を開始しましょう。 
 ---
-= 運用の耐障害性に関する前提条件
+= BlueXPの運用耐障害性に関する前提条件
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -20,7 +20,7 @@ summary: 環境のサポート、ネットワークアクセス、ログイン�
 +
 を参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^] および https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-networking-saas-console.html["BlueXPのネットワーク情報"^]。
 
-* このサービスを実行するには、すべてのクラスタがデジタルアドバイザ（旧Active IQ デジタルアドバイザ）で監視されている必要があります。を参照してください https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisorのドキュメント"^]。
+* このサービスでは、すべてのクラスタがBlueXPデジタルアドバイザ（Active IQ ）で監視されている必要があります。そのためには、アセットでAutoSupport が有効になっている必要があります。を参照してください https://docs.netapp.com/us-en/active-iq/index.html["BlueXP Digital Advisorドキュメント"^]。
 * クラスタへのアクセスクレデンシャルが必要です。
-* 必須ではありませんが、BlueXP Connectorが適切に配置されて有効になっていて、ONTAP システムが検出された場合に役立ちます。そうでない場合は、運用の耐障害性サービスがそれらのプロセスを順を追って説明します。
+* 自動修正を実行するには、BlueXP Connectorが必要です。BlueXPの運用の耐障害性を使用して修正を開始する前に、BlueXPコネクタが適切に配置されて有効になっていて、ONTAP システムが検出されている場合に役立ちます。コネクタが適切に配置されていない場合は、運用復元サービスがそれらのプロセスを案内します。代わりにAnsibleファイルを使用して修正する場合は、BlueXP Connectorは必要ありません。
 

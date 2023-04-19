@@ -1,6 +1,6 @@
 ---
 section: use
-title: 運用の耐障害性サービスを使用します
+title: BlueXPの耐運用性を活用
 entries:
 - title: セキュリティの問題を確認して修正します
   url: "/use/remediate-overview.html"

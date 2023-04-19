@@ -1,10 +1,10 @@
 ---
 indexpage:
-  lead: 運用の耐障害性は、アラートとイベントを分析してサービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスです。運用の耐障害性サービスとIT運用リスクの自動修正提案を使用すると、システム停止や障害が発生する前に推奨される修正策を実装できます。
+  lead: BlueXPの運用の耐障害性は、アラートとイベントを分析して、サービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスです。運用の耐障害性サービスとIT運用リスクの自動修正提案を使用すると、システム停止や障害が発生する前に推奨される修正策を実装できます。
   tiles:
   - title: はじめに
     links:
-    - title: 運用の耐障害性サービスについて説明します
+    - title: BlueXPの運用耐障害性について説明します
       url: "/get-started/intro.html"
     - title: 新機能
       url: "/release-notes/whats-new.html"
@@ -16,7 +16,7 @@ indexpage:
       url: "/get-started/login.html"
     - title: よく寄せられる質問
       url: "/get-started/faq.html"
-  - title: 運用の耐障害性サービスを使用します
+  - title: BlueXPの耐運用性を活用
     links:
     - title: セキュリティの問題を確認して修正します
       url: "/use/remediate-overview.html"

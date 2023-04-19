@@ -2,15 +2,15 @@
 section: get-started
 title: はじめに
 entries:
-- title: 運用の耐障害性サービスについて説明します
+- title: BlueXPの運用耐障害性について説明します
   url: "/get-started/intro.html"
 - title: 前提条件
   url: "/get-started/prerequisites.html"
 - title: クイックスタート
   url: "/get-started/quick-start.html"
-- title: 運用の耐障害性サービスをセットアップします
+- title: BlueXPの運用耐障害性を設定
   url: "/get-started/setup.html"
-- title: BlueXPのサービスにアクセスします
+- title: BlueXPの優れた運用耐障害性
   url: "/get-started/login.html"
 - title: よく寄せられる質問
   url: "/get-started/faq.html"

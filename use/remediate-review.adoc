@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/remediate-review.html 
 keywords: bluexp, operational resiliency, remediate, security risk remediation 
-summary: リスク修正サービスは、オンプレミスのONTAP クラスタ上のセキュリティリスクを特定します。 
+summary: 運用の耐障害性を備えたBlueXPは、オンプレミスのONTAP クラスタのセキュリティリスクを特定します。 
 ---
 = セキュリティリスクの問題をレビューします
 :hardbreaks:
@@ -12,11 +12,11 @@ summary: リスク修正サービスは、オンプレミスのONTAP クラス�
 
 
 [role="lead"]
-リスク修正サービスは、オンプレミスのONTAP クラスタ上のセキュリティリスクを特定します。
+運用の耐障害性を備えたBlueXPは、オンプレミスのONTAP クラスタのセキュリティリスクを特定します。
 
 リスクを確認し、自動修正措置を実行するには、次のプロセスを実行します。
 
-* BlueXPでコネクタを作成します（リスク修正サービス用のコネクタがまだない場合）。
+* BlueXPでコネクタを作成します（運用の耐障害性サービス用のコネクタがない場合）。
 * クラスタを検出します（サービスに対してクラスタが存在しない場合）。
 * 修正措置を実施するか、Ansible Playbookをダウンロード
 * 修正ステータスを表示します。

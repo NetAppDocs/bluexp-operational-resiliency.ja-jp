@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: get-started/setup.html 
 keywords: bluexp, operational resiliency, risk remediate 
-summary: 容量を追加したりコールドデータを階層化したりするのではなく、現時点では対処不要で、30日、60日、90日後に再度確認するようにリマインダを設定できます。 
+summary: BlueXPの運用耐障害性サービスを使用するための最初のステップは、環境内の監視ツールからデータを利用できるようにすることです。 
 ---
-= 運用の耐障害性サービスをセットアップします
+= BlueXPの運用耐障害性を設定
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: 容量を追加したりコールドデータを階層化したりす�
 
 
 [role="lead"]
-運用の耐障害性サービスを使用するための最初のステップは、環境内の監視ツールからデータを利用できるようにすることです。
+BlueXPの運用の耐障害性を活用するための第一歩は、環境内の監視ツールからデータを利用できるようにすることです。
 
 サービスを設定するには、次の手順を実行します。
 
