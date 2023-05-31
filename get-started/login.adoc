@@ -14,7 +14,7 @@ summary: BlueXPでサービスにアクセスして、耐障害性運用サー�
 [role="lead"]
 NetApp BlueXPにログインすると、BlueXPの運用耐障害性を利用できます。
 
-BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
+BlueXPにログインするには、NetApp Support Site のクレデンシャルを使用するか、Eメールとパスワードを使用してネットアップクラウドへのログインにサインアップします。 https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["ログインの詳細については、こちらをご覧ください"^]。
 
 .手順
 . Webブラウザを開き、にアクセスします https://console.bluexp.netapp.com/["BlueXPコンソール"]。

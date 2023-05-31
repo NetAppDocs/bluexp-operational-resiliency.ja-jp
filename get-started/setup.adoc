@@ -29,7 +29,7 @@ BlueXP ConnectorにはNetApp ONTAP マシンへのクレデンシャルが含ま
 
 BlueXPで直接コネクタを作成し、そのコネクタを運用の耐障害性サービスで使用できます。または、クラスタを確認するプロセスを開始し、そのプロセスの途中でコネクタを導入します。
 
-サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
+サービスを使用する前にBlueXPでコネクタを作成する方法については、該当するBlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
 
 
 
@@ -37,4 +37,4 @@ BlueXPで直接コネクタを作成し、そのコネクタを運用の耐障�
 
 セットアップの一環として、BlueXPでクラスタ名、IP、ユーザ名、パスワードを特定します。
 
-手順については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"^]。
+手順については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["クラスタを特定する方法"^]。

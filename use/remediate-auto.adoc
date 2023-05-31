@@ -25,11 +25,11 @@ BlueXPの運用の耐障害性で*[Remediate]*オプションを選択した場�
 +
 ** コネクタが存在しない場合、またはまだ有効になっていない場合は、[コネクタの作成]ページが表示され、コネクタを作成できます。コネクタは存在するがアクティブでない場合は、クラウドプロバイダサービスで有効にする必要があります。
 +
-詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタの作成方法"^]。
 
 ** クラスタが存在しない場合は、クラスタを識別するページが表示されます。
 +
-詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["クラスタを特定する方法"^]。
+詳細については、BlueXPのドキュメントを参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["クラスタを特定する方法"^]。
 
 
 
