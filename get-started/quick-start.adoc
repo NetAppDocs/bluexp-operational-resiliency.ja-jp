@@ -16,19 +16,19 @@ summary: NetApp BlueXPの運用耐障害性サービスは、わずかな手順�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] 前提条件を確認する
 [role="quick-margin-para"]
-link:../get-started/prerequisites.html["環境がこれらの要件を満たしていることを確認します"^]。
+link:../get-started/prerequisites.html["環境がこれらの要件を満たしていることを確認します"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] 運用の耐障害性サービスをセットアップします
 [role="quick-margin-para"]
-link:../get-started/setup.html["サービスをセットアップする手順を実行します"^]。
+link:../get-started/setup.html["サービスをセットアップする手順を実行します"]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["3つ"] 次の手順
 [role="quick-margin-para"]
 サービスのセットアップが完了したら、次の手順を実行します。
 
 [role="quick-margin-list"]
-* link:../use/remediate-overview.html["セキュリティリスクの問題をレビューして修正"^]。
-* link:../use/remediate-auto.html["自動的に修正"^]。
-* link:../use/remediate-ansible.html["Ansible Playbookを使用して問題を解決"^]。
-* link:../use/remediate-status.html["リスクの修正ステータスを確認"^]。
+* link:../use/remediate-overview.html["セキュリティリスクの問題をレビューして修正"]。
+* link:../use/remediate-auto.html["自動的に修正"]。
+* link:../use/remediate-ansible.html["Ansible Playbookを使用して問題を解決"]。
+* link:../use/remediate-status.html["リスクの修正ステータスを確認"]。
 
