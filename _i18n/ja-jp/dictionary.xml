@@ -205,8 +205,6 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
-  <block id="84fa68bdcea2ad5e54b20ac851705b19" category="summary">ここでは、このリリースのサービスでサポートされていない、またはサービスと正常に相互運用できないプラットフォーム、デバイス、または機能について説明します。</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="doc">制限</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">新機能</block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023年4月2日</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
@@ -241,8 +239,6 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="69b085a23d3ed85c84455b9288792bf2" category="inline-link">BlueXPクイックスタート</block>
   <block id="45e7f38a8238b36c23e85bbe6436ba0b" category="inline-link">BlueXPのネットワーク情報</block>
-  <block id="271a4aecd4217c716176f150130e85ab" category="summary">BlueXPの運用の耐障害性は、アラートとイベントの分析を支援するサービスで、サービスとソリューションの健全性、アップタイム、パフォーマンスを維持します。運用の耐障害性サービスとIT運用リスクの自動修正提案を使用すると、システム停止や障害が発生する前に推奨される修正策を実装できます。</block>
-  <block id="dd7c710b103a018a2046baa2f5052ed9" category="doc">BlueXPの優れた運用耐障害性</block>
   <block id="e6f9a71f2431a6f1340c157d23dabee6" category="doc">BlueXPの運用耐障害性に関する前提条件</block>
   <block id="4047eed73fb147faca2a60e49cd11bd3" category="inline-link">BlueXP Digital Advisorドキュメント</block>
   <block id="79489f774fae583d2ef44553677325d2" category="list-text">このサービスでは、すべてのクラスタがBlueXPデジタルアドバイザ（Active IQ ）で監視されている必要があります。そのためには、アセットでAutoSupport が有効になっている必要があります。を参照してください<block ref="28ad866a93984325ed92c672458a0234" category="inline-link-rx"></block>。</block>
@@ -355,4 +351,5 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
+  <block id="6cd44b17ed7736e578a73cf34d46ca52" category="sidebar">BlueXPの運用耐障害性に関するドキュメント</block>
 </blocks>
