@@ -237,8 +237,6 @@
   <block id="69b085a23d3ed85c84455b9288792bf2" category="inline-link">BlueXPクイックスタート</block>
   <block id="45e7f38a8238b36c23e85bbe6436ba0b" category="inline-link">BlueXPのネットワーク情報</block>
   <block id="e6f9a71f2431a6f1340c157d23dabee6" category="doc">BlueXPの運用耐障害性に関する前提条件</block>
-  <block id="4047eed73fb147faca2a60e49cd11bd3" category="inline-link">BlueXP Digital Advisorドキュメント</block>
-  <block id="79489f774fae583d2ef44553677325d2" category="list-text">このサービスでは、すべてのクラスタがBlueXPデジタルアドバイザ（Active IQ ）で監視されている必要があります。そのためには、アセットでAutoSupport が有効になっている必要があります。を参照してください<block ref="28ad866a93984325ed92c672458a0234" category="inline-link-rx"></block>。</block>
   <block id="b195ee77502e843664bcba163b60d4ad" category="list-text">自動修正を実行するには、BlueXP Connectorが必要です。BlueXPの運用の耐障害性を使用して修正を開始する前に、BlueXPコネクタが適切に配置されて有効になっていて、ONTAP システムが検出されている場合に役立ちます。コネクタが適切に配置されていない場合は、運用復元サービスがそれらのプロセスを案内します。代わりにAnsibleファイルを使用して修正する場合は、BlueXP Connectorは必要ありません。</block>
   <block id="5396aec18ef871c7c8fb5f3e71071da8" category="summary">BlueXPの運用耐障害性サービスを使用するための最初のステップは、環境内の監視ツールからデータを利用できるようにすることです。</block>
   <block id="b7044cbcf51431684747ed82ec363437" category="doc">BlueXPの運用耐障害性を設定</block>
@@ -247,7 +245,6 @@
   <block id="490d590118714dd56e7c49c9dc1016d6" category="summary">BlueXPの運用の耐障害性は、アラートとイベントを分析して、サービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスです。運用の耐障害性サービスとIT運用の自動修復の提案を使用すると、システム停止や障害が発生する前に推奨される修正策を実装できます。</block>
   <block id="e4062e43ecd3e9b66ed3efe3150aa1d3" category="doc">BlueXPの運用耐障害性について説明します</block>
   <block id="5d84361178f8487227dcab9eb32e9312" category="paragraph">BlueXPの運用の耐障害性は、アラートとイベントを分析してサービスとソリューションの健全性、アップタイム、パフォーマンスを維持するのに役立つサービスです。運用の耐障害性サービスとIT運用リスクの自動修正提案を使用すると、システム停止や障害が発生する前に推奨される修正策を実装できます。</block>
-  <block id="6b5aa1fcaf53fdb7faa3abc66c3936e3" category="paragraph">このBlueXPサービスでは、BlueXP Digital Advisor（Active IQ ）のガイダンスに基づいて、NetApp ONTAP クラスタへの修正プログラムを実装します。このサービスは、ファームウェアやソフトウェアの設定の問題など、セキュリティの脆弱性を検出します。</block>
   <block id="18096d7d55c678c44a691f68acf1192b" category="section-title">BlueXPの運用耐障害性を利用するメリット</block>
   <block id="bd92f54b050c6c9326ecedaec0f8f909" category="paragraph">BlueXPの運用耐障害性には、次のようなメリットがあります。</block>
   <block id="30b514febdd42261d1a1daa3d54d14d0" category="section-title">BlueXPの優れた運用耐障害性</block>
@@ -353,4 +350,7 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="ee97d7a6f8cd51410930ad6fd6c7d715" category="doc">BlueXP  運用耐障害性サービス</block>
+  <block id="5837045b4a274916acb6680b003d1c2b" category="paragraph">このBlueXP  サービスでは、Active IQデジタルアドバイザ（デジタルアドバイザ）のガイダンスに基づいて、NetApp ONTAPクラスタへの修正措置を実施します。このサービスは、ファームウェアやソフトウェアの設定の問題など、セキュリティの脆弱性を検出します。</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisorのドキュメント</block>
+  <block id="d2a40e1969d512b879525670f7f544d5" category="list-text">このサービスでは、すべてのクラスタをDigital Advisorで監視する必要があります。そのためには、アセットでAutoSupportが有効になっている必要があります。を参照してください<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>。</block>
 </blocks>

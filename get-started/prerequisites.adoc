@@ -20,7 +20,7 @@ summary: 環境のサポート、ネットワークアクセス、ログイン�
 +
 を参照してください https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["BlueXPクイックスタート"^] および https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html["BlueXPのネットワーク情報"^]。
 
-* このサービスでは、すべてのクラスタがBlueXPデジタルアドバイザ（Active IQ ）で監視されている必要があります。そのためには、アセットでAutoSupport が有効になっている必要があります。を参照してください https://docs.netapp.com/us-en/active-iq/index.html["BlueXP Digital Advisorドキュメント"^]。
+* このサービスでは、すべてのクラスタをDigital Advisorで監視する必要があります。そのためには、アセットでAutoSupportが有効になっている必要があります。を参照してください https://docs.netapp.com/us-en/active-iq/index.html["Digital Advisorのドキュメント"^]。
 * クラスタへのアクセスクレデンシャルが必要です。
 * 自動修正を実行するには、BlueXP Connectorが必要です。BlueXPの運用の耐障害性を使用して修正を開始する前に、BlueXPコネクタが適切に配置されて有効になっていて、ONTAP システムが検出されている場合に役立ちます。コネクタが適切に配置されていない場合は、運用復元サービスがそれらのプロセスを案内します。代わりにAnsibleファイルを使用して修正する場合は、BlueXP Connectorは必要ありません。
 
